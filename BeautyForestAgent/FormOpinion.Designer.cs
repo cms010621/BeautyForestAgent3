@@ -59,7 +59,7 @@
             this.rtbText.Name = "rtbText";
             this.rtbText.Size = new System.Drawing.Size(460, 210);
             this.rtbText.TabIndex = 1;
-            this.rtbText.Text = "";
+            this.rtbText.Text = resources.GetString("rtbText.Text");
             // 
             // statusStrip1
             // 
@@ -97,6 +97,7 @@
             this.tsbtnFont.Name = "tsbtnFont";
             this.tsbtnFont.Size = new System.Drawing.Size(23, 22);
             this.tsbtnFont.Text = "toolStripButton1";
+            this.tsbtnFont.Click += new System.EventHandler(this.TsbtnFont_Click);
             // 
             // tsbtnColor
             // 
@@ -106,6 +107,7 @@
             this.tsbtnColor.Name = "tsbtnColor";
             this.tsbtnColor.Size = new System.Drawing.Size(23, 22);
             this.tsbtnColor.Text = "toolStripButton2";
+            this.tsbtnColor.Click += new System.EventHandler(this.TsbtnColor_Click);
             // 
             // FormOpinion
             // 
@@ -118,7 +120,7 @@
             this.Controls.Add(this.button1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormOpinion";
-            this.Text = "FormOpinion";
+            this.Text = "3216 최민성";
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
             this.tlsMenu.ResumeLayout(false);
