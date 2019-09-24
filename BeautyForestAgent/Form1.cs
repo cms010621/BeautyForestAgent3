@@ -60,6 +60,11 @@ namespace BeautyForestAgent
             FormOpinion m = new FormOpinion();
             m.ShowDialog();
         }
+
+        private void StatusStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
     }
 
 }
